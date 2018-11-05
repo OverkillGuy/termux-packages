@@ -1,6 +1,7 @@
 TERMUX_PKG_HOMEPAGE=http://www.sbcl.org/
 TERMUX_PKG_DESCRIPTION="Steel Bank Common Lisp"
-TERMUX_PKG_VERSION=1.3.9
+TERMUX_PKG_VERSION=1.4.2
+TERMUX_PKG_SHA256=8dcba54853d99e2f5f9dbbd207604471afab528d1eb5c10d24ddea65bae64717
 TERMUX_PKG_SRCURL=http://prdownloads.sourceforge.net/sbcl/sbcl-${TERMUX_PKG_VERSION}-source.tar.bz2
 
 termux_step_pre_configure () {
