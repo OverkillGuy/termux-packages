@@ -28,5 +28,7 @@ termux_step_pre_configure () {
 
 termux_step_make_install () {
 	cd $TERMUX_PKG_SRCDIR
-	sh make.sh --prefix=$TERMUX_PREFIX --arch=${_ARCH}
+	sh make.sh --prefix=$TERMUX_PREFIX \
+	   --arch=${_ARCH}\
+	   --without-sb-thread
 }
